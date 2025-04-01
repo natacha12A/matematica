@@ -37,7 +37,7 @@ img{
     height: 2.5rem;
 }
 
-.sumario a{
+.conteudo a{
     position: absolute;
     right: 6rem;
     top: 1rem;
@@ -59,4 +59,22 @@ img{
     border-radius: 3rem;
     height: 4rem;
     width: 4rem;
+}
+
+.nomes {
+
+    font-family: 'Playfair Display', serif;
+    margin-top: 15rem;
+    margin-left: 9rem;
+   
+
+}
+
+.hammy{
+
+    font-family: 'Playfair Display', serif;
+    margin-top: 2rem;
+    margin-left: 9rem;
+    color: var(--medium-green);
+    font-size: 1.3rem;
 }
