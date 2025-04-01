@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+   --medium-green: #214413;
+    --light-green: #b5bfa1;
+}
+.completo{
+    display: flex;
+    flex-direction: column;
+}
+.fixo{
+    padding: 12rem 2rem 2rem 10rem;
+    background-color: #b5bfa1;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-style: italic;
+    color: #214413;
+    flex-direction: column;
+}
+
+.variavel{
+    padding: 0.5rem;
+    margin-left: 8.75rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-style: italic;
+    color: #214413;
+    flex-direction: column;
+}
+
+
+img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.sumario a{
+    position: absolute;
+    right: 6rem;
+    top: 1rem;
+    flex-direction: row;
+
+    padding: 1rem;
+    background-color: var(--medium-green);
+    border-radius: 2rem;
+    color: var(--light-green);
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+}
+
+.home a img{
+    position: absolute;
+    left: 2.5rem;
+    top: 1rem;
+    border-radius: 3rem;
+    height: 4rem;
+    width: 4rem;
+}
